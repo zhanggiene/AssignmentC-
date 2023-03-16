@@ -1,0 +1,16 @@
+enum PropertyType : byte {
+  StringType,
+  IntegerType,
+  DoubleType,
+  BoolType,
+}
+
+table Property {
+  name:string;
+  value:string;
+  type: PropertyType;
+  children: [Property];
+}
+
+ 
+root_type Property;
