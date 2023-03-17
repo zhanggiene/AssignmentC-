@@ -240,10 +240,10 @@ void handle_read_size(const boost::system::error_code& error, std::size_t bytes_
     if (!error) {
 
         buffer.resize(size_);
-        std::cout<<"size of the buffer is1 "<<size_;
-        std::cout<<"byte transfered is  "<<bytes_transferred<<std::flush;
+        //std::cout<<"size of the buffer is1 "<<size_;
+        //std::cout<<"byte transfered is  "<<bytes_transferred<<std::flush;
         boost::asio::async_read(socket, boost::asio::buffer(buffer), [&](const boost::system::error_code &error, std::size_t bytes_transferred) {
-            std::cout<<"byte transfered is  "<<bytes_transferred<<std::flush;
+            //std::cout<<"byte transfered is  "<<bytes_transferred<<std::flush;
             handle_read_buffer(error, bytes_transferred, socket, buffer, schema);});
     } else {
         std::cerr << "Error:  handle_read_size" << error.message() << std::endl;
@@ -310,8 +310,8 @@ void task5()
 int main() {
 
     //Task3Server();
-    //Task4();
-    task5();
+    Task4();
+    //task5();
     // Task2();
     return 0;
 }

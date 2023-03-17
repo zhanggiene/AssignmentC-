@@ -35,8 +35,10 @@ sender.cpp send a nested property tree object and Task4 function receive and pri
 element in property object using reflection API
 output:
 ```
-Name: TestName, Type: String, Value: TestValue
-Name: TestName_children, Type: String, Value: TestValue_children
+name is TestNametype isvalue is TestValue
+child    
+name is TestName_childrentype isvalue is TestValue_children
+
 
 
 ```
@@ -51,38 +53,38 @@ perperty object, it will print out all the elements of property tree.
 
 output for main.cpp
 ```
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
 Hello world
-size of the buffer is1 140byte transfered is  4byte transfered is  140name is TestNametype isvalue is TestValue
+name is TestNametype isvalue is TestValue
 child    
 name is TestName_childrentype isvalue is TestValue_children
 Hello world
